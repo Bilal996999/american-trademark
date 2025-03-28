@@ -38,7 +38,7 @@
     .trademark-wrapper {
         padding: 60px 72px 100px;
     }
-    .top-content .theme-heading.small {
+    .theme-heading.small {
         font-size: 32px;
     }
     .feature-item h3 {
@@ -153,7 +153,7 @@
     .feature-item h3 {
         font-size: 18px;
     }
-    .top-content .theme-heading.small {
+    .theme-heading.small {
         font-size: 29px;
     }
     .theme-heading {
@@ -207,6 +207,9 @@
     .hero-form-wrapper .form-wrapper {
         display: none;
     }
+    .modal .form-wrapper{
+        display: block;
+    }
     .hero-content-wrapper {
         margin-top: 30px;
         padding-left: 0;
@@ -222,7 +225,7 @@
     .trademark-wrapper {
         padding: 50px 35px 100px;
     }
-    .top-content .theme-heading.small {
+    .theme-heading.small {
         font-size: 27px;
     }
     .trademark-features {
@@ -336,7 +339,7 @@
     .bi-tradmark-register .container {
         max-width: 100%;
     }
-    .top-content .theme-heading.small {
+    .theme-heading.small {
         font-size: 24px;
     }
     .feature-item img {
@@ -498,11 +501,17 @@
     .form-content ul {
         margin-top: 35px;
     }
+    .bi-cta .top-content .bi-btn {
+        font-size: 14px;
+    }
 }
 
 
 
 @media(max-width: 400px){
+    .bi-cta .top-content .bi-btn {
+        font-size: 12px;
+    }
     .bi-header img {
         max-width: 151px;
     }

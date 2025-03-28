@@ -121,6 +121,29 @@ h1,h2,h3,h4,h5,h6{
 a,p,ul,li{
     font-family: "DMSans", sans-serif;
 }
+.modal-body .form-wrapper {
+  margin-top: 0;
+  box-shadow: none;
+  padding: 20px 0px;
+}
+.modal-header {
+  border-bottom: 0;
+  padding: 18px 20px 0;
+}
+.modal .btn {
+  background-color: var(--themeColor);
+  opacity: 1;
+  color: #fff;
+  border-radius: 50%;
+  margin-left: auto;
+  font-family: 'Outfit';
+  font-weight: 200;
+}
+.modal .form-wrapper {
+  margin-top: 0 !important;
+  box-shadow: none !important;
+  padding: 15px 0 !important;
+}
 .bi-btn {
   background-color: var(--themeColor);
   border:none;
@@ -319,7 +342,7 @@ a,p,ul,li{
 .top-content {
   text-align: center;
 }
-.top-content .theme-heading.small {
+.theme-heading.small {
   font-size: 35px;
 }
 .trademark-features {

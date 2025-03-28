@@ -19,7 +19,9 @@
     <div class="container small-container">
       <div class="d-flex justify-content-between align-items-center" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
         <img src="./assets/img/main-logo.png" alt="logo" class="img-fluid" loading="eager"/>
-        <a href="#" class="bi-btn white">GET IN TOUCH NOW</a>
+        <button class="bi-btn white" type="button" data-bs-toggle="modal" data-bs-target="#formModal">
+          GET IN TOUCH NOW
+        </button>
       </div>
     </div>
   </header>
@@ -64,7 +66,7 @@
               <li data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">Rated 4.8★ on Trustpilot!</li>
             </ul>
             <div class="d-flex align-items-center gap-5" data-aos="fade-up" data-aos-delay="600" data-aos-duration="900">
-              <a class="bi-btn" href="#">
+              <a class="bi-btn" href="#" data-bs-toggle="modal" data-bs-target="#formModal">
                 Register  my trademark
               </a>
               <img src="./assets/img/trust-pilot.png" class="img-fluid" alt="trust pilot"/>
@@ -160,7 +162,7 @@
                 service to notify you of possible infringers of your trademark.
               </li>
             </ul>
-            <a href="" class="bi-btn package-btn"> Get Started </a>
+            <a href="" class="bi-btn package-btn" data-bs-toggle="modal" data-bs-target="#formModal"> Get Started </a>
           </div>
 
           <div class="package-item" data-aos="flip-left" data-aos-delay="400" data-aos-duration="500">
@@ -186,7 +188,7 @@
                 to your template that you can further customize to your needs.
               </li>
             </ul>
-            <a href="" class="bi-btn package-btn"> Get Started </a>
+            <a href="" class="bi-btn package-btn" data-bs-toggle="modal" data-bs-target="#formModal"> Get Started </a>
           </div>
 
           <div class="package-item" data-aos="flip-left" data-aos-delay="500" data-aos-duration="500">
@@ -222,7 +224,7 @@
                  Basic and Standard packages ($49 value)
               </li>
             </ul>
-            <a href="" class="bi-btn package-btn"> Get Started </a>
+            <a href="" class="bi-btn package-btn" data-bs-toggle="modal" data-bs-target="#formModal"> Get Started </a>
           </div>
         </div>
       </div>
@@ -343,7 +345,9 @@
           Those who innovate and adapt will lead the way to long-term success.
         </p>
         <span data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">Feeling Confused?</span>
-        <div data-aos="fade-up" data-aos-delay="700" data-aos-duration="800"><a class="bi-btn alt" href="#">Get a Free Consultation Today!</a></div>
+        <div data-aos="fade-up" data-aos-delay="700" data-aos-duration="800">
+          <a class="bi-btn alt" href="#" data-bs-toggle="modal" data-bs-target="#formModal">Get a Free Consultation Today!</a>
+        </div>
       </div>
     </div>
   </section>
@@ -566,6 +570,38 @@
   <div class="go-top">
     <img src="./assets/img/left-arrow.png" class="img-fluid" loading="lazy"/>
   </div>  
+
+ <!-- Modal -->
+<div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close"> X </button>
+      </div>
+      <div class="modal-body">
+        <div class="hero-form-wrapper">
+          <h2 class="theme-heading small">Still Have Questions? Contact Us Today!</h2>
+          <div class="form-wrapper" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1200">
+            <p>Our team of seasoned experts is here to guide you on this transformative journey, 
+              enabling you to unlock your business's full potential.</p>
+              <form>
+                <input type="text" placeholder="Full Name" name="name"/>
+                <input type="email" placeholder="Email Address" name="email"/>
+                <input type="tel" placeholder="Phone Number" name="phone"/>
+                <select>
+                  <option disabled>Select Services</option>
+                  <option>Service One</option>
+                  <option>Service Two</option>
+                  <option>Service Three</option>
+                </select>
+                <button class="bi-btn"> Submit </button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <script src="./assets/js/jquery-3.7.0.min.js" ></script>
