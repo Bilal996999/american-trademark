@@ -210,6 +210,9 @@
     .modal .form-wrapper{
         display: block;
     }
+    .modal .theme-heading.small{
+        padding-right: 0px;
+    }
     .hero-content-wrapper {
         margin-top: 30px;
         padding-left: 0;
@@ -503,6 +506,10 @@
     }
     .bi-cta .top-content .bi-btn {
         font-size: 14px;
+    }
+    .footer-bottom .d-flex {
+        flex-wrap: wrap;
+        font-size: 12px;
     }
 }
 
