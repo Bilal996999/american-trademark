@@ -1,0 +1,560 @@
+@media(max-width: 1920px) and (min-width: 1399px){
+    .container{
+        max-width:1520px;
+    } 
+    .container.small-container {
+        max-width:1290px;
+    }
+    
+}
+
+@media(max-width: 1399px){
+    .bi-hero {
+        padding: 170px 0 315px;
+    }
+    .hero-content-wrapper .main-para {
+        font-size: 17px;
+    }
+    .bi-btn {
+        padding: 15px 30px;
+    }
+    .hero-form-wrapper h1 {
+        font-size: 45px;
+    }
+    .bi-hero .bi-btn {
+        font-size: 13px;
+    }
+    .hero-counter h3 {
+        font-size: 55px;
+    }
+    .hero-counter :is(span, p) {
+        font-size: 12px;
+    }
+    .hero-form-wrapper .form-wrapper :is(input,select) {
+        flex: 1 0 48%;
+        width: 48%;
+    }
+
+    .trademark-wrapper {
+        padding: 60px 72px 100px;
+    }
+    .top-content .theme-heading.small {
+        font-size: 32px;
+    }
+    .feature-item h3 {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .trademark-features {
+        margin-top: 50px;
+        padding-bottom: 42px;
+        margin-bottom: 65px;
+    }
+    .theme-heading {
+        font-size: 50px;
+    }
+    .package-item {
+        padding: 32px 30px;
+    }
+    .package-item .package-cat {
+        font-size: 27px;
+    }
+    .package-item .package-price {
+        font-size: 45px;
+    }
+    .package-item .package-price sub {
+        font-size: 13px;
+    }
+    .package-item ul li {
+        font-size: 15px;
+    }
+
+    .strategy-slider .item {
+        padding: 6.7vh 3.6vw 6.61vh 3vw;
+    }
+    .slick-left.slick-arrow {
+        left: 12.5vw;
+    }
+    .slick-right.slick-arrow {
+        right: 12.5vw;
+    }
+    .strategy-slider .item h3 {
+        font-size: 26px;
+    }
+    .strategy-slider .item p {
+        font-size: 16px;
+    }
+    .tradmarking-growth-right {
+        padding-left: 0;
+    }
+    .tradmarking-growth-right p {
+        font-size: 16px;
+    }
+    .info-box h4 {
+        font-size: 18px;
+    }
+    .info-box-wrapper .info-box {
+        padding: 25px;
+    }
+    .bi-strategy, .bi-cta, .bi-testimonial, .bi-footer{
+        overflow-x: hidden;
+    }
+
+    .bottom-form {
+        padding: 65px 80px 60px;
+    }
+    .bottom-form .form-wrapper {
+        padding-left: 20px;
+    }
+}
+
+
+@media(max-width: 1199px){
+    .hero-content-wrapper {
+        padding-left: 35px;
+    }
+    .hero-form-wrapper .form-wrapper {
+        padding: 30px 40px;
+    }
+    .bi-hero .bi-btn {
+        padding: 13px 25px;
+        margin-right: 20px;
+    }
+    .hero-content-wrapper .d-flex {
+        gap: 0px !important;
+    }
+    .hero-counter h3 {
+        font-size: 46px;
+    }
+    .hero-counter:nth-child(1) {
+        padding-right: 20px;
+    }
+    .hero-counter:nth-child(2) {
+        padding-left: 40px;
+    }
+    .hero-form-wrapper h1 {
+        font-size: 40px;
+    }
+    .hero-content-wrapper ul li {
+        margin: 5px 0;
+    }
+    .hero-content-wrapper hr {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .trademark-features {
+        gap: 40px;
+        justify-content: space-around;
+    }
+    .feature-item img {
+        width: 64px;
+    }
+    .feature-item h3 {
+        font-size: 18px;
+    }
+    .top-content .theme-heading.small {
+        font-size: 29px;
+    }
+    .theme-heading {
+        font-size: 42px;
+    }
+
+    .strategy-slider .item h3 {
+        font-size: 24px;
+        margin: 20px 0 15px;
+    }
+    .strategy-slider .item p {
+        line-height: 26px;
+    }
+    .strategy-slider .item img {
+        height: 65px;
+    }
+    .strategy-bottom .col-12 {
+        width: 50%;
+    }
+    .tradmarking-growth-left .theme-heading {
+        padding-right: 0px;
+    }
+    .info-box-wrapper {
+        margin-top: 36px;
+        gap: 20px;
+    }
+    .info-box p {
+        font-size: 14px;
+    }
+    .info-box img {
+        width: 50px;
+    }
+    .trust-pilot-review-box h4 {
+        font-size: 17px;
+    }
+
+    .field-wrapper p {
+        font-size: 13px;
+    }
+    .form-content ul li {
+        font-size: 16px;
+    }
+    .bottom-form {
+        padding: 45px 55px 45px;
+    }
+}
+
+
+
+@media(max-width: 991px){
+    .hero-form-wrapper .form-wrapper {
+        display: none;
+    }
+    .hero-content-wrapper {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .hero-counter:nth-child(2) {
+        flex: 2;
+    }
+    .bi-btn {
+        padding: 13px 26px;
+        font-size: 14px;
+    }
+    
+    .trademark-wrapper {
+        padding: 50px 35px 100px;
+    }
+    .top-content .theme-heading.small {
+        font-size: 27px;
+    }
+    .trademark-features {
+        gap: 20px;
+    }
+    .feature-item h3 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .theme-heading {
+        font-size: 35px;
+    }
+    .package-item {
+        flex: 1 0 100%;
+    }
+
+    .strategy-bottom {
+        padding-top: 60px;
+    }
+    .slick-left.slick-arrow {
+        left: 50px;
+    }
+    .slick-right.slick-arrow {
+        right: 50px;
+    }
+    .strategy-bottom .col-12 {
+        width: 100%;
+    }
+    .trust-pilot-review-box {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding: 20px 18px;
+        height: 100px;
+    }
+    .tradmarking-growth-left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .trust-pilot-review-box h3 {
+        font-size: 15px;
+        top: -12px;
+        right: -12px;
+    }
+    .strategy-slider .item img {
+        height: 55px;
+    }
+    .strategy-slider .item h3 {
+        font-size: 20px;
+    }
+    .strategy-slider .item p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .strategy-slider .item a {
+        font-size: 14px;
+    }
+    .strategy-slider {
+        margin-top: 40px;
+    }
+    .bi-strategy {
+        padding: 50px 0 0 !important;
+    }
+
+    .bi-cta .top-content p {
+        padding: 0;
+        font-size: 16px;
+        margin: 30px 0;
+    }
+    .bi-cta .top-content .bi-btn {
+        font-size: 17px;
+    }
+    .bi-cta {
+        padding: 80px 0;
+    }
+
+    .bottom-form {
+        margin-top: 65px;
+    }
+    .bottom-form .form-wrapper {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .field-wrapper :is(label,p) {
+        padding-inline: 0px;
+    }
+    .field-wrapper p {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media(max-width: 767px){
+    .bi-btn {
+        padding: 13px 26px;
+        font-size: 14px;
+    }
+    .hero-form-wrapper h1 {
+        font-size: 34px;
+    }
+    .hero-content-wrapper .main-para {
+        font-size: 15px;
+    }
+    .hero-content-wrapper ul li {
+        font-size: 15px;
+    }
+    .hero-counter:nth-child(1) {
+        flex: 2;
+    }
+
+    .bi-tradmark-register .container {
+        max-width: 100%;
+    }
+    .top-content .theme-heading.small {
+        font-size: 24px;
+    }
+    .feature-item img {
+        width: 54px;
+    }
+    .theme-heading {
+        font-size: 32px;
+    }
+    .package-wrapper {
+        margin-top: 40px;
+    }
+    .trademark-features {
+        margin-bottom: 40px;
+    }
+
+    .slick-arrow {
+        padding: 15px 11px;
+    }
+    .slick-left.slick-arrow {
+        left: 22px;
+    }
+    .slick-right.slick-arrow {
+        right: 22px;
+    }
+    .strategy-slider .item {
+        height: 290px;
+        padding: 25px 25px 25px 25px;
+    }
+    .strategy-slider .item h3 {
+        font-size: 18px;
+    }
+    .strategy-slider .item p {
+        font-size: 13px;
+    }
+    .info-box h4 {
+        margin: 15px 0 15px;
+    }
+    .info-box p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .testimonial-item {
+        gap: 20px;
+        height: 355px;
+    }
+    
+    .testimonial-item h2 {
+        font-size: 24px;
+    }
+    
+    .author-info img {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .author-info h5 {
+        font-size: 18px;
+    }
+    
+    .author-info small {
+        font-size: 15px;
+    }
+    
+    .testimonial-slider {
+        margin-top: 50px;
+    }
+    .bi-testimonial {
+        padding: 80px 0 !important;
+    }
+    .testimonial-item p {
+        font-size: 14px;
+    }
+    .testimonial-item {
+        height: 320px;
+        padding-inline: 24px;
+    }
+    .testimonial-item h2 {
+        font-size: 21px;
+    }
+    .quote {
+        right: 30px;
+        top: 30px;
+        width: 34px;
+    }
+
+    .footer-content-wrapper.second {
+        margin-top: 40px;
+    }
+    .footer-bottom {
+        margin-top: 40px;
+    }
+}
+
+
+
+
+@media(max-width: 575px){
+    .bi-btn {
+        padding: 12px 20px;
+        font-size: 12px;
+    }
+    .bi-header img {
+        max-width: 200px;
+    }
+    .hero-content-wrapper ul {
+        margin-bottom: 20px;
+    }
+    .hero-counter h3 {
+        font-size: 40px;
+        margin: 6px 0;
+    }
+    .hero-content-wrapper hr {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .trademark-features {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .trademark-features .feature-item {
+        flex: 1 0 47%;
+    }
+    .bi-tradmark-register {
+        padding-inline: 10px !important;
+    }
+    .package-item ul li {
+        font-size: 14px;
+    }
+    .package-item .package-price {
+        font-size: 41px;
+    }
+    .package-item .package-cat {
+        font-size: 26px;
+    }
+
+    .tradmarking-growth-right p {
+        font-size: 14px;
+    }
+    .strategy-slider .item {
+        height: 270px;
+    }
+    .hero-content-wrapper .d-flex {
+        flex-wrap: wrap;
+    }
+    .bi-hero .bi-btn {
+        margin-top: 20px;
+        order: 2;
+    }
+    .bi-hero .d-flex img {
+        margin-right: 20px;
+    }
+
+    .bottom-form {
+        padding: 35px 30px 30px;
+    }
+    .form-content ul {
+        margin-top: 35px;
+    }
+}
+
+
+
+@media(max-width: 400px){
+    .bi-header img {
+        max-width: 151px;
+    }
+    .hero-content-wrapper .d-flex {
+        flex-wrap: wrap;
+    }
+    .bi-hero .bi-btn {
+        margin-top: 20px;
+        order: 2;
+    }
+    .bi-hero .d-flex img {
+        margin-right: 20px;
+    }
+    .hero-counter:nth-child(2) {
+        padding-left: 25px;
+    }
+    .hero-counter h3 {
+        font-size: 35px;
+    }
+    .hero-counter :is(span, p) {
+        font-size: 11px;
+    }
+
+    .trademark-features .feature-item {
+        flex: 1 0 45%;
+    }
+    .feature-item img {
+        width: 42px;
+    }
+    .feature-item h3 {
+        font-size: 14px;
+    }
+    .package-item {
+        padding: 30px 22px;
+    }
+    .package-item ul li {
+        font-size: 13px;
+    }
+    .package-item .package-price {
+        font-size: 38px;
+    }
+    .package-item .package-cat {
+        font-size: 25px;
+    }
+    .theme-heading {
+        font-size: 28px;
+    }
+
+    .info-box-wrapper {
+        flex-wrap: wrap;
+    }
+    .trademark-wrapper {
+        padding: 40px 15px 70px;
+    }
+}
